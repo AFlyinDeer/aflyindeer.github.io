@@ -1,0 +1,96 @@
+/* Reset and global styles */
+body {
+    background-color: #212121;
+    color: #ccc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Heading styles */
+h1,
+h2 {
+    color: #ccc;
+    margin: 0;
+    text-align: center;
+}
+
+/* Text styles */
+p {
+    color: #ccc;
+    margin: 0;
+    text-align: left;
+}
+
+/* Main content styles */
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #ccc;
+    border-top: 1px solid;
+}
+
+/* Navbar styles */
+.navbar {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    color: #ccc !important;
+}
+
+.navbar a {
+    color: #ccc !important;
+}
+
+/* Image and video styles */
+img,
+video {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+/* Section styles */
+.section {
+    background-color: #333;
+    padding: 10px;
+    height: 100%;
+}
+
+/* Additional styles */
+.block {
+    margin-top: 25px;
+}
+
+.title {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-img-small {
+    max-height: 60px !important;
+    max-width: 60px !important;
+    margin-top: 5px;
+}
+
+.language-cards {
+    align-content: center;
+}
+
+.pfp {
+    height: 65%;
+}
