@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Title and character encoding -->
+    <title>Wade's Portfolio</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Main container -->
+    <div class="container">
+        <main>
+            <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+                <div class=" container-fluid">
+                    <a class="navbar-brand" href="#">Wade's Portfolio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="codingProjects.html">Coding
+                                    Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gaming.html">Gaming</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="minecraft.html">Minecraft Mods</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Second row with one column -->
+            <div class="row" id="title-row">
+                <div class="col mb-4">
+                    <h1>Minecraft Mods</h1>
+                </div>
+            </div>
+
+            <!-- Content for page-->
+            <div class="row">
+                <div class="col">
+                    <p>This page acts as a catch all for the mods I use in Minecraft. The mods listed are Fabric
+                        mods and will require the user to install Fabric into their game. This can be achieved by
+                        download the <a href="https://fabricmc.net/use/installer/" target="_blank">Fabric Loader</a> or
+                        by using <a href="https://multimc.org/" target="_blank">MultiMC</a>. <a
+                            href="https://www.curseforge.com/minecraft/mc-mods/fabric-api" target="_blank">Fabric
+                            API</a> is very important when working with Fabric mods. Do keep in mind that some of these
+                        mods may conflict. I've had issues when carpet mod is installed on the client in the past.</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    <p>Another great resource is <a href="https://vanillatweaks.net/" target="_blank">Vanilla Teaks</a>.
+                        Here you can create and add custom Resource Packs, Data Packs, and Crafting Tweaks to your game.
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    <h3>Client Mods</h3>
+                    <table class="table table-dark table-hover table-header">
+                        <thead id="client-mod-head">
+                        </thead>
+                        <tbody id="client-mod-body">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row mt-4 mb-4">
+                <div class="col">
+                    <h3>Server Mods</h3>
+                    <table class="table table-dark table-hover table-header">
+                        <thead id="server-mod-head">
+                        </thead>
+                        <tbody id="server-mod-body">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                &copy; 2024 Wade's Portfolio
+            </footer>
+        </main>
+    </div>
+    <!-- Bootstrap and JavaScript dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="data/clientData.js"></script>
+    <script src="data/serverData.js"></script>
+    <script src="scripts/minecraft.js"></script>
+</body>
+
+</html>
