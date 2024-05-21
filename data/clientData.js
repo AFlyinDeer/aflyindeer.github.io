@@ -67,11 +67,6 @@ var clientData = {
             download: "https://www.curseforge.com/minecraft/mc-mods/litematica",
         },
         {
-            modName: "Lithium",
-            description: "Lithium is a general-purpose optimization mod for Minecraft, which works to improve a number of systems (game physics, mob AI, block ticking, etc) without changing any behavior. It works on both the client and server, and can be installed on servers without requiring clients to also have the mod. With the mod installed, you can expect to see more than a 50% improvement to tick times, resulting in a much faster game.",
-            download: "https://www.curseforge.com/minecraft/mc-mods/lithium",
-        },
-        {
             modName: "MaLiLib",
             description: "MaLiLib is a library mod containing shared code for masa's client-side mods.",
             download: "https://www.curseforge.com/minecraft/mc-mods/malilib",
